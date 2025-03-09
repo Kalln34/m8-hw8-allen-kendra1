@@ -40,25 +40,32 @@ header a {
   font-size: 1.5rem;
   color: var(--off-white);
   transition: 300ms;
+  box-shadow: inset 0 0 0 0 darkmagenta;
+  color: darkmagenta;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .10s ease-in-out, box-shadow .10s ease-in-out;
 }
 
 header a:hover{
   transform: translateY(-3px);
+  box-shadow: inset 300px 0 0 0 darkmagenta;
+  color: white;
 }
 /* end header link animations */
 
 /* article link transitions */
 main a {
   color: var(--danger-color);
-  box-shadow: inset 0 0 0 0 #06b3bc;
-  color: #06b3bc;
+  box-shadow: inset 0 0 0 0 darkorange;
+  color: darkorange;
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .10s ease-in-out, box-shadow .10s ease-in-out;
 }
 
 main a:hover {
-  box-shadow: inset 300px 0 0 0 #06b3bc;
+  box-shadow: inset 300px 0 0 0 darkorange;
   color: white;
 }
 /* end article link transitions */
